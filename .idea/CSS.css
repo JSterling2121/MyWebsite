@@ -17,6 +17,12 @@ h1{
     padding: 10px;
     border-bottom-style: dashed;
 }
+h2{
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    padding: 10px;
+}
 
 main{
     display: flex;
