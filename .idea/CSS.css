@@ -1,45 +1,86 @@
-
 body{
-    background: white;
+    background:black;
+    border : 2px solid white;
+    padding: 10px;
+
 }
 
 header{
     text-align: center;
-    padding: 5px;
+    padding: .2cm;
 }
+h1{
+    border-top-style: dashed;
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    padding: 10px;
+    border-bottom-style: dashed;
+}
+
 main{
-    h1{
-        text-align: center;
-        font-size: 40px;
-    }
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: space-evenly;
 
-    .container{
-        display: flex;
-        justify-content: space-evenly;
-        border: 5px solid black;
-        row-gap: 1em;
+    border-top-style: dashed;
+    border-top-width: 3px;
+    border-bottom-style: dashed;
+    border-bottom-width: 3px;
+    color: white;
+
+    gap: 10px;
+
+
+    div{
+        border-style: dashed;
+        border-width: 3px;
+        border-color: darkgrey;
         padding: 10px;
-    }
-    .box{
-        width: 400px;
-        height: 400px;
-        font-size: 8em;
-        text-align: center;
-        border-radius: 15px;
-    }
-    #box1{
-        background-color: black;
+
+        background:#2E2E2E ;
+
+
+        text-align: left;
         color: white;
+        min-height: 200px;
+
+        min-width: 500px;
+        max-width: 500px;
     }
-    #box2{
-        background-color: blue;
-    }
-    #box3{
-        background-color: black;
-        color: white;
+}
 
 
-    }
+div{
+    border-style: dashed;
+    border-width: 3px;
+    border-color: darkgrey;
+    padding: 10px;
 
+    background:#2E2E2E ;
 
+    text-align: left;
+    color: white;
+
+    min-height: 200px;
+    width: 90%;
+
+    margin-left: auto ;
+    margin-right: auto ;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+p{
+    font-size: 20px;
+    color: white;
+}
+
+footer{
+    border-top-style: dashed;
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    padding: 10px;
 }
