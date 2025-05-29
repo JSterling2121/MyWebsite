@@ -47,16 +47,34 @@ main{
 
         background:#2E2E2E ;
 
-
-        text-align: left;
+        font-size: 20px ;
+        text-align: center;
         color: white;
-        min-height: 200px;
+
+        min-height: 250px;
+        max-height: 500px;
 
         min-width: 500px;
         max-width: 500px;
     }
-}
 
+    p{
+        FONT-SIZE: 20PX;
+        text-align: center;
+        color: white;
+    }
+    ul{
+        FONT-SIZE: 20PX;
+        text-align: left;
+        color: white;
+    }
+
+}
+p{
+    font-size: 50px;
+    color: white;
+    text-align: center;
+}
 div{
     border-style: dashed;
     border-width: 3px;
@@ -84,12 +102,6 @@ div{
     justify-content: space-evenly;
     align-items: center;
     align-content: space-evenly;
-
-
-}
-p{
-    font-size: 20px;
-    color: white;
 }
 
 footer{
